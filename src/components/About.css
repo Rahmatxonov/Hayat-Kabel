@@ -1,0 +1,15 @@
+.about {
+  background-image: url(../assets/images/about-bg.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: contain;
+  align-items: center;
+  height: 100vh;
+}
+.about-text {
+  background-image: url(../assets/images/ABOUT-US.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  align-items: center;
+}

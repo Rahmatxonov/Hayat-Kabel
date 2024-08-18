@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #01040e;
+  font-family: 'Unbounded-Regular', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gold;
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: 'Unbounded-Regular', sans-serif;
+  src: url(./assets/fonts/Unbounded/static/Unbounded-Regular.ttf);
+}

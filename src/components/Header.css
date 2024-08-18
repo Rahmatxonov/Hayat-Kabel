@@ -1,0 +1,14 @@
+.hero {
+  background-image: url(../assets/images/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: contain;
+  align-items: center;
+  height: 100vh;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    height: 70vh;
+  }
+}
