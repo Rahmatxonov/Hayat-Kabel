@@ -161,13 +161,11 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import productsText from '../assets/images/PRODUCTS.png';
-import axios from 'axios';
 import { useTranslation } from 'react-i18next';
 import cable from '../assets/images/product.jpg';
 
 const Products: React.FC = () => {
   const navigate = useNavigate();
-  let [product, setProduct] = useState([]);
   const { t } = useTranslation();
 
   const productData = [
