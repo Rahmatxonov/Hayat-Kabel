@@ -158,7 +158,6 @@
 
 // export default Products;
 
-import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import productsText from '../assets/images/PRODUCTS.png';
 import { useTranslation } from 'react-i18next';
