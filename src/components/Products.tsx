@@ -284,15 +284,15 @@ const Products: React.FC = () => {
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <p className="text-[#DDDDDD] text-[12px] md:text-[14px] font-light">
-                      <strong className="text-white">Size:</strong>{' '}
+                      <strong className="text-white">Size: </strong>10
                       {product.size}
                     </p>
                     <p className="text-[#DDDDDD] text-[12px] md:text-[14px] font-light">
-                      <strong className="text-white">Color:</strong>{' '}
+                      <strong className="text-white">Color: </strong>black
                       {product.color}
                     </p>
                     <p className="text-[#DDDDDD] text-[12px] md:text-[14px] font-light">
-                      <strong className="text-white">View:</strong>{' '}
+                      <strong className="text-white">View: </strong>100
                       {product.view}
                     </p>
                   </div>

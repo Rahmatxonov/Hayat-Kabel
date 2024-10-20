@@ -43,13 +43,14 @@ const ProductDetail: React.FC = () => {
             </p>
             <div className="text-gray-400 space-y-2">
               <p>
-                <strong className="text-white">Size: </strong> {product.size}
+                <strong className="text-white">Size: 10</strong> {product.size}
               </p>
               <p>
-                <strong className="text-white">Color: </strong> {product.color}
+                <strong className="text-white">Color: black</strong>{' '}
+                {product.color}
               </p>
               <p>
-                <strong className="text-white">View: </strong> {product.view}
+                <strong className="text-white">View: 100</strong> {product.view}
               </p>
             </div>
           </div>
